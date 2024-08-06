@@ -12,7 +12,7 @@ export const CancelButton = styled(Button)({
 export const CustomTextField = styled(TextField)({
   "& .MuiOutlinedInput-root": {
     "&:hover fieldset": {
-      borderColor: "#7f7e90",
+      borderColor: "#b3b3bd",
     },
   },
 });

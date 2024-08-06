@@ -33,7 +33,7 @@ const DeleteModal = ({ open, onClose, handleDeleteObject }) => {
   return (
     <Dialog open={open} onClose={onClose}>
       <DialogTitle
-        style={{ textAlign: "center", marginTop: "3vh", color: "#7f7e90" }}
+        style={{ textAlign: "center", marginTop: "3vh", color: "#b3b3bd" }}
       >
         Delete Object
       </DialogTitle>

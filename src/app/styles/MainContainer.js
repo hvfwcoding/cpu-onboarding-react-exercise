@@ -4,7 +4,7 @@ const MainContainer = styled("div")({
   display: "flex",
   flexDirection: "column",
   minHeight: "100vh",
-  backgroundColor: "#7f7e90",
+  backgroundColor: "#b3b3bd",
 });
 
 export default MainContainer;
