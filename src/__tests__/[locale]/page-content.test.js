@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom';
 import { render, screen } from "@testing-library/react";
-import PageContent from "../app/[locale]/page-content";
+import PageContent from "../../app/[locale]/page-content";
 
 jest.mock("../app/components/AddModal", () => () => (
   <div data-testid="AddModal" />

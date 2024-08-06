@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
-import Home from "../app/[locale]/page";
-import useModalCommonLogic from "../app/hooks/modalCommonLogic";
-import initTranslations from "../app/i18n";
+import Home from "../../app/[locale]/page";
+import useModalCommonLogic from "../../app/hooks/modalCommonLogic";
+import initTranslations from "../../app/i18n";
 
 jest.mock("../app/i18n", () => ({
   __esModule: true,
