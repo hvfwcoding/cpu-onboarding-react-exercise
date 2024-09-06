@@ -6,7 +6,7 @@ import {
 } from "@mui/material";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import useModalCommonLogic from "../hooks/modalCommonLogic";
+import useModalCommonLogic from "../hooks/useModalLogic";
 import {
   CancelButton,
   CustomTextField,

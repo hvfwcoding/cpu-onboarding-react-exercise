@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 
-const useModalCommonLogic = () => {
+const useModalLogic = () => {
   const [loading, setLoading] = useState(false);
   const [itemDetails, setItemDetails] = useState(null);
   const [selectedItem, setSelectedItem] = useState(null);
@@ -177,4 +177,4 @@ const useModalCommonLogic = () => {
   };
 };
 
-export default useModalCommonLogic;
+export default useModalLogic;

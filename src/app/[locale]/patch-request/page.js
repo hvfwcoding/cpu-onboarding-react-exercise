@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import useModalCommonLogic from "../../hooks/modalCommonLogic";
+import useModalCommonLogic from "../../hooks/useModalLogic";
 import initTranslations from "../../i18n";
 import items from "../../utils/items";
 import PatchRequestContent from "./page-content";
