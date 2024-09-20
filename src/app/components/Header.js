@@ -38,28 +38,8 @@ const Header = ({ locale }) => {
               </Link>
             </NavItem>
             <NavItem>
-              <Link href="/get-request" passHref>
-                <NavLink variant="body1">GET Request</NavLink>
-              </Link>
-            </NavItem>
-            <NavItem>
-              <Link href="/post-request" passHref>
-                <NavLink variant="body1">POST Request</NavLink>
-              </Link>
-            </NavItem>
-            <NavItem>
-              <Link href="/put-request" passHref>
-                <NavLink variant="body1">PUT Request</NavLink>
-              </Link>
-            </NavItem>
-            <NavItem>
-              <Link href="/patch-request" passHref>
-                <NavLink variant="body1">PATCH Request</NavLink>
-              </Link>
-            </NavItem>
-            <NavItem>
-              <Link href="/delete-request" passHref>
-                <NavLink variant="body1">DELETE Request</NavLink>
+              <Link href="#" passHref>
+                <NavLink variant="body1">Onborading Exercise</NavLink>
               </Link>
             </NavItem>
           </NavList>

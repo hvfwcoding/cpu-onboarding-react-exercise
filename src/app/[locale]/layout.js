@@ -1,3 +1,5 @@
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 import "../styles/global.css";
 
 export const metadata = {
@@ -7,7 +9,11 @@ export const metadata = {
 
 export default function RootLayout({ children, locale }) {
   return (
-    <html lang={{ locale }}>
+    /* it was and showing: Ensure the lang attribute of the <html> element has a valid value
+        <html lang={{ locale }}>
+        Now updated line 16
+    */
+    <html lang="en">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -21,7 +27,9 @@ export default function RootLayout({ children, locale }) {
         />
       </head>
       <body>
+        <Header locale={locale} />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

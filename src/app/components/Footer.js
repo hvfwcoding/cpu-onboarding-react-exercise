@@ -8,7 +8,7 @@ const Footer = () => {
     <StyledAppBar position="static">
       <Toolbar>
         <Typography variant="body1" sx={{ flexGrow: 1 }}>
-          &copy; 2024 Computershare Onboarding
+          &copy; 2024 Computershare
         </Typography>
       </Toolbar>
     </StyledAppBar>

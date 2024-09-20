@@ -2,8 +2,6 @@
 import { useEffect } from "react";
 import AddModal from "../components/AddModal";
 import DeleteModal from "../components/DeleteModal";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
 import LeftPanel from "../components/LeftPanel";
 import MultiIdsModal from "../components/MultiIdsModal";
 import PartiallyUpdateModal from "../components/PartiallyUpdateModal";
@@ -45,7 +43,6 @@ const PageContent = ({
 
   return (
     <MainContainer>
-      <Header locale={locale} />
       <MainContent>
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-4">{t("header")}</h1>
@@ -64,7 +61,6 @@ const PageContent = ({
           />
         </div>
       </MainContent>
-      <Footer />
       <MultiIdsModal
         open={openMultiIdsModal}
         onClose={() => setOpenMultiIdsModal(false)}
